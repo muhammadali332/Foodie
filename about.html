@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #121212;
+    color: #eeeeee;
+    padding: 20px 5%;
+    line-height: 1.7;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #1c1c1c;
+    border: 1px solid #444;
+    border-radius: 15px;
+    margin-bottom: 45px;
+}
+
+/* LOGO */
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-section img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.logo-section big {
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+/* NAVIGATION */
+.navbar nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar nav a {
+    color: #ccc;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 12px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.navbar nav a:hover {
+    background: #444;
+    color: white;
+}
+
+/* ABOUT CONTENT */
+body > h1,
+body > p,
+body > h2,
+body > ul,
+body > h3 {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* MAIN HEADING */
+body > h1 {
+    font-size: 42px;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+/* PARAGRAPHS */
+body > p {
+    background: #222;
+    border: 1px solid #444;
+    border-radius: 15px;
+    padding: 25px;
+    color: #ccc;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+/* SECTION HEADINGS */
+body > h2 {
+    font-size: 27px;
+    color: #ffffff;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+/* LIST */
+body > ul {
+    background: #222;
+    border: 1px solid #444;
+    border-radius: 15px;
+    padding: 25px 45px;
+    margin-bottom: 25px;
+    color: #ccc;
+}
+
+body > ul li {
+    padding: 7px 0;
+}
+
+/* FINAL HEADING */
+body > h3 {
+    text-align: center;
+    background: #292929;
+    border: 1px solid #555;
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 40px;
+    font-size: 23px;
+    color: white;
+}
+
+/* HOVER EFFECTS */
+body > p:hover,
+body > ul:hover {
+    border-color: #888;
+    transition: 0.3s;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 700px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navbar nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    body > h1 {
+        font-size: 32px;
+    }
+
+    body > h2 {
+        font-size: 23px;
+    }
+
+    body > p {
+        font-size: 15px;
+        padding: 18px;
+    }
+}
+
+</style>
+</head>
+<body>
+    
+<header class="navbar">
+
+    <div class="logo-section">
+        <a href="/HTML/Foodie/home.html">
+            <img src="loogo.jpeg" alt="Foodie Logo">
+        </a>
+
+        <big>Best Food Store In Pakistan</big>
+    </div>
+
+    <nav>
+        <a href="/HTML/Foodie/home.html">HOME</a>
+        <a href="/HTML/Foodie/about.html">ABOUT</a>
+        <a href="/HTML/Foodie/signup.html">SIGN UP</a>
+        <a href="/HTML/Foodie/login.html">LOG IN</a>
+    </nav>
+
+</header>
+       
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Foodie Store</title>
+</head>
+<body>
+
+    <h1>About Foodie Store</h1>
+
+    <p>
+        Welcome to <b>Foodie Store</b>, your destination for delicious
+        and freshly prepared food!
+    </p>
+
+    <h2>Our Mission</h2>
+
+    <p>
+        At Foodie Store, our mission is to turn everyday meals into
+        memorable experiences. We aim to bring people closer through
+        delicious flavours, carefully selected ingredients, and a
+        passion for great food. We believe every bite should bring
+        happiness, every order should build trust, and every customer
+        deserves something special.
+    </p>
+
+    <h2>Why Choose Us?</h2>
+
+    <ul>
+        <li>Fresh and delicious food.</li>
+        <li>A variety of food options.</li>
+        <li>Affordable prices.</li>
+        <li>Easy and convenient ordering.</li>
+        <li>Customer satisfaction is our priority.</li>
+    </ul>
+
+    <h2>Our Promise</h2>
+
+    <p>
+        We believe good food brings people together. At Foodie Store,
+        we aim to make every order special.
+    </p>
+
+    <h3>Foodie Store - Good Food, Great Taste!</h3>
+
+</body>
+</html>
+
+</html>
